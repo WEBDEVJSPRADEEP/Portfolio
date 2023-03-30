@@ -1,12 +1,12 @@
 {
     "personal" :{
-        "name" : "John Doe",
-        "tagline" : "A passionate Full Stack Developer.",
-        "tagline2" : "World leading Full stack developer",
+        "name" : "Pradeep Carpenter",
+        "tagline" : "A passionate Frontend Developer.",
+        "tagline2" : "World leading Frontend developer",
         "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci.",
-        "email" : "john.doe@gmail.com",
+        "email" : "pradeep@gmail.com",
         "phone" : "+91 9876543210",
-        "location" : "Indore, Madhya Pradesh",
+        "location" : "Dewas, Madhya Pradesh",
         "birthday": "24 January 1997",
         "image" : "/profile.png",
         "cv" : "/cv.pdf"
@@ -83,6 +83,6 @@
     "contact":{
         "heading": "Get in touch",
         "description" :"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci.",
-        "email" : "rahul.thakur@pixelnx.com"
+        "email" : "pradeep@gmail.com"
     }
 }
