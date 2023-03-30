@@ -1,0 +1,88 @@
+{
+    "personal" :{
+        "name" : "John Doe",
+        "tagline" : "A passionate Full Stack Developer.",
+        "tagline2" : "World leading Full stack developer",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci.",
+        "email" : "john.doe@gmail.com",
+        "phone" : "+91 9876543210",
+        "location" : "Indore, Madhya Pradesh",
+        "birthday": "24 January 1997",
+        "image" : "/profile.png",
+        "cv" : "/cv.pdf"
+    },
+    "social" :{
+        "facebook" : "https://www.facebook.com/login",
+        "instagram" : "https://www.instagram.com/login/",
+        "twitter" : "https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D",
+        "linkedin" : "https://www.linkedin.com/feed/",
+        "youtube" : "https://www.youtube.com/"
+    },
+    "education" : [
+        {
+            "name" : "Masters in computer application",
+            "university" : "Vikram university, Ujjain",
+            "year" : "2018 - 2021",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci."
+        },
+        {
+            "name" : "Bachelor in computer application",
+            "university" : "Vikram university, Ujjain",
+            "year" : "2015 - 2018",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci."
+        },
+        {
+            "name" : "High secondary",
+            "university" : "Delhi public school, Indore",
+            "year" : "2014-2015",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci."
+        }
+    ],
+    "experience" : [
+        {
+            "name" : "Web developer",
+            "company" : "XYZ infotech",
+            "year" : "2018 - Running",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci."
+        },
+        {
+            "name" : "Web developer",
+            "company" : "ABC infotech",
+            "year" : "2015 - 2018",
+            "description" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci."
+        }
+    ],
+    "skills":["Javascript","Python","PHP","C++","Java","HTML/CSS"],
+    "software":["WP Office","Photoshop","Illustrator","Figma","Adobe XD","After Effects"],
+    "services":[
+        {
+            "name" : "UI/UX Design",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam."
+        },
+        {
+            "name" : "Wireframing",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam."
+        },
+        {
+            "name" : "Case Study",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam."
+        },
+        {
+            "name" : "Experience Design",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam."
+        },
+        {
+            "name" : "Personal Creation",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam."
+        },
+        {
+            "name" : "Business Stratagy",
+            "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam."
+        }
+    ],
+    "contact":{
+        "heading": "Get in touch",
+        "description" :"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum in eos saepe ipsa cupiditate accusantium voluptatibus quidem nam, reprehenderit, et necessitatibus adipisci.",
+        "email" : "rahul.thakur@pixelnx.com"
+    }
+}

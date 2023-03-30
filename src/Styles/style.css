@@ -1,0 +1,222 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Signika:wght@300;400;500;600;700&display=swap');
+:root{
+    --mainColor:#ff451b;
+    --darkColor:#0f172a;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background-color: #ecf0f3;
+    color: var(--darkColor);
+    overflow-x: hidden !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    margin: 0;
+    font-family: 'Signika', sans-serif;
+    color: #727d99;
+}
+.rt_profile_box ,.rt_about{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    max-width: 1320px;
+}
+.rt_btn {
+    height: 50px;
+    background: var(--mainColor);
+    padding: 0 25px;
+    border-radius: 11px;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: all 0.3s;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.rt_btn:hover {
+    background: var(--darkColor);
+}
+.rt_banner{
+    background-color: var(--darkColor);
+}
+.rt_banner h2,.rt_profile_info h2,.rt_menu_box ul li:hover,.rt_menu_box ul li.active{
+    color: var(--mainColor);
+}
+.rt_banner  .img1 {
+    top: 25px;
+    left: 17%;
+}
+.rt_banner .img2 {
+    top: 100px;
+    left: 6%;
+    animation-delay: 1s;
+}
+.rt_banner  .img3 {
+    top: 90px;
+    right: 6%;
+    animation-delay: 2s;
+}
+.rt_banner .img4 {
+    top: 80px;
+    right: 40%;
+    animation-delay: 3s;
+}
+.rt_banner .img5 {
+    top: 10px;
+    right: 22%;
+    animation-delay: 4s;
+}
+.rt_banner .img6 {
+    top: 50px;
+    left: 30%;
+    animation-delay: 5s;
+}
+.rt_banner img {
+    opacity: 0.5;
+    animation: move 8s linear infinite;
+}
+@keyframes move {
+    0%{
+        transform: translate(0px,0px);
+    }
+    25%{
+        transform: translate(5px,0px);
+    }
+    50%{
+        transform: translate(10px,10px);
+    }
+    75%{
+        transform: translate(0px,5px);
+    }
+    100%{
+        transform: translate(0px,0px);
+    }
+}
+.rt_profile_box{
+    margin-top: -110px;
+}
+.rt_profile_box .container,.rt_menu_content .container{
+    box-shadow: 0 0 30px 0px #0000000e;
+}
+.rt_profile_box .border-r > img{
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+}
+.rt_menu_box .container {
+    border-bottom: 2px dashed #0f172a1a;
+}
+.rt_Footer{
+    border-top: 2px dashed #0f172a1a;
+}
+.rt_about h3,.rt_Footer h2{
+    color: var(--mainColor);
+}
+.rt_Footer h2 span{
+    color: var(--darkColor);
+}
+.rt_about_img > img{
+    width: 400px;
+    height: 486px;
+    object-fit: cover;
+    object-position: top;
+}
+.rt_about_img > .rt_img_circle {
+    top: -56px;
+    left: -70px;
+    width: 600px;
+    height: 600px;
+    background: #ff451b2b;
+    padding: 6px;
+    border-radius: 500px;
+    z-index: -1;
+}
+
+.rt_about_img .rt_img_circle img {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: -25px;
+    transform-origin: 325px;
+    transform: rotate(0deg);
+}
+.rt_about_img span{
+    background: #ff451b2b;
+    transform: rotate(-28deg);
+    z-index: -1;
+    animation: rotate 25s linear infinite;
+}
+.rt_about_img .rt_img_circle .img2 {
+    transform: rotate(88deg);
+}
+.rt_about_img .rt_img_circle .img3 {
+    transform: rotate(181deg);
+}
+.rt_about_img .rt_img_circle .img4 {
+    transform: rotate(270deg);
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(-10deg);
+    }
+    50%{
+        transform: rotate(-25deg);
+    }
+    100%{
+        transform: rotate(-10deg);
+    }
+}
+.rt_resume h3,.rt_services h3,.rt_contact h3{
+    color: var(--mainColor);
+}
+.rt_resume .row h1{
+    border-bottom: 2px dashed #0f172a1a;
+}
+.rt_resume .row,.rt_contact .row{
+    margin: 0 -16px;
+}
+.rt_education span{
+    border: 2px solid var(--mainColor);
+    border-radius: 100px;
+    padding: 5px 15px;
+    background: #ff451b33;
+    font-weight: 700;
+    color: var(--darkColor);
+    font-size: 14px;
+}
+.rt_education:last-child{
+    margin: 0;
+}
+.rt_skills ul li:before{
+    content: "";
+    position: absolute;
+    top: 11px;
+    left: 5px;
+    width: 5px;
+    height: 5px;
+    background: #000;
+    border-radius: 100px;
+}
+.rt_skills ul li:after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border: 2px solid var(--mainColor);
+    border-radius: 100px;
+    left: 0;
+    top: 6px;
+}
+.rt_services .row{
+    margin: 0 -16px;
+}
